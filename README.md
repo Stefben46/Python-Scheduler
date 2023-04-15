@@ -1,4 +1,4 @@
-THIS PROGRAM WORKS BUT CAN HAVE PROBLEMS SINCE IT WAS MADE FOR A SPECIFIC USE
+:warning: While this program is functional, it was designed for a specific use case and may encounter issues if used in other contexts. :warning:
 
 This Python script provides a command line interface for scheduling and managing processes using the subprocess module. With this script, users can easily schedule programs to run at specific intervals or run them manually.
 
