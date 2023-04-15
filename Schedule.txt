@@ -1,0 +1,2 @@
+.\Programs\Cancellasubito.py,1209600,1678181399.5619268
+.\Programs\Pesisubito.py,1209600,1678185205.8746376
