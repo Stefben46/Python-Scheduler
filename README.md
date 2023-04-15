@@ -8,7 +8,7 @@ To run the Example.py file every 5 minutes, you can use the command line interfa
 2)Open a terminal or command prompt and navigate to the directory where both files are located.
 
 3)Type 'python scheduler.py' followed by the path to Example.py and the desired interval time (in minutes) separated by spaces. In this example, we want to run Example.py every 5 minutes, so we'll use:
-python scheduler.py Example.py 5
+```python scheduler.py Example.py 5```
 
 4)Press enter to run the command.
 
