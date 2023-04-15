@@ -2,21 +2,22 @@ THIS PROGRAM WORKS BUT CAN HAVE PROBLEMS SINCE IT WAS MADE FOR A SPECIFIC USE
 
 This Python script provides a command line interface for scheduling and managing processes using the subprocess module. With this script, users can easily schedule programs to run at specific intervals or run them manually.
 
+For any info just type help in the terminal when Main.py is open
 
 To run the Example.py file every 5 minutes, you can use the command line interface provided by the scheduler.py script. Here are the steps to do it:
 
-1. Make sure you have both scheduler.py and Example.py in the same directory.
+1. Make sure you have Example.py in the same Programs folder.
 
-2. Open a terminal or command prompt and navigate to the directory where both files are located.
+2. Open a terminal or command prompt and navigate to the directory where Main.py is present and type:
+```python Main.py``` to run the program
 
-3. Type 'python scheduler.py' followed by the path to Example.py and the desired interval time (in seconds) separated by spaces. 
-In this example, we want to run Example.py every 5 minutes, so we'll use:
-```python scheduler.py Example.py 300```
+3. To run  Example.py every 5 minutes (300 in seconds) type:
+```runTime Example.py 300```
 
 4. Press enter to run the command.
 
-The script will now schedule Example.py to run every 5 minutes. You can close the terminal or command prompt window and the script will continue running in the background.
+The script will now schedule Example.py to run every 5 minutes.
 
-That's it! Your program will now run automatically every 5 minutes thanks to the scheduler.py script.
+The Schedule.txt file is responsible for persisting the interval and time elapsed since the last run, which allows this information to be retained even when the program is shut down. When the program is restarted, it will retrieve these values from the file to resume its tasks.
 
 To ensure uninterrupted execution, keep the terminal open while running your Python code or set it to run on startup. If you shut down your PC or terminal, any ongoing processes will be terminated. Alternatively, use a scheduler to automate the script without requiring manual input.
