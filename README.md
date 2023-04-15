@@ -1,3 +1,5 @@
+THIS PROGRAM WORKS BUT CAN HAVE PROBLEMS SINCE IT WAS MADE FOR A SPECIFIC USE
+
 This Python script provides a command line interface for scheduling and managing processes using the subprocess module. With this script, users can easily schedule programs to run at specific intervals or run them manually.
 
 
@@ -16,3 +18,5 @@ In this example, we want to run Example.py every 5 minutes, so we'll use:
 The script will now schedule Example.py to run every 5 minutes. You can close the terminal or command prompt window and the script will continue running in the background.
 
 That's it! Your program will now run automatically every 5 minutes thanks to the scheduler.py script.
+
+To ensure uninterrupted execution, keep the terminal open while running your Python code or set it to run on startup. If you shut down your PC or terminal, any ongoing processes will be terminated. Alternatively, use a scheduler to automate the script without requiring manual input.
